@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (pager.getCurrentItem()>=allImages.size()-1){
                     pager.setCurrentItem(0);
-                    Toast.makeText(MainActivity.this, "1  "+pager.getCurrentItem(), Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(MainActivity.this, "1  "+pager.getCurrentItem(), Toast.LENGTH_SHORT).show();
 
                 }else {
                     pager.setCurrentItem(pager.getCurrentItem() + 1, true);
